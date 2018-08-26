@@ -61,10 +61,10 @@ cl = prank
 #[[SEMUA SELFBOT SUDAH TERMASUK OWNER BOT PROTECT]]
 #== GABUNGAN SELFBOT DENGAN BOT PROTECT ==
 
-#MINAT PM ID  👉     http://line.me/ti/p/~adiputra.95
+#MINAT PM ID  👉     http://line.me/ti/p/~joker.alish
 settings = {
-    "autoAdd":False,
-    "autoJoin":False,
+    "autoAdd":True,
+    "autoJoin":True,
 }
 
 read = {
@@ -113,7 +113,7 @@ def mention(to, nama):
 #===============SB ONLY====================
 #===================================#
 def help():
-    helpMessage = "╭━━╦℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́╦в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́╦━━╮\n┣╦━━━╩PUBLIC BOTS╩━━━━" + "\n" + \
+    helpMessage = "╭━━╦Alish-public╦━━╮\n┣╦━━━╩PUBLIC BOTS╩━━━━" + "\n" + \
                   "┣╦Nama Bot╦ " + prankProfile.displayName + "\n" + \
                   "┣╦Help" + "\n" + \
                   "┣╦Set" + "\n" + \
@@ -148,7 +148,7 @@ def help():
                   "┣╦Lurk:off" + "\n" + \
                   "┣╦Lurk:rest" + "\n" + \
                   "┣╦Lurkers" + "\n" + \
-                  "┣━━━━━╩━━━╩━━━━━\n┣━╦🇮🇩CREATOR INDONESIA🇮🇩╦━╣\n╰━━╩℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к╩̰̰̈́в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́╩━━╯"
+                  "┣━━━━━╩━━━╩━━━━━\n┣━╦🇮🇷 CREATOR IRAN 🇮 🇷 ╦━╣\n╰━━̰̰̈́╩━━╯"
     return helpMessage
 while True:
     try:
@@ -158,7 +158,7 @@ while True:
             if op.type == 5:
                 prank.findAndAddContactsByMid(op.param1)
                 xname = prank.getContact(op.param1).displayName
-                prank.sendMessage(op.param1, "Hay " + xname + "\nBOT PUBLIC VORKED : PRANKBOTS\n\nOWNER BOTS\nhttp://line.me/ti/p/~adiputra.95")
+                prank.sendMessage(op.param1, "Hay " + xname + "\nBOT PUBLIC VORKED : Alish Public Bots\n\nOWNER BOTS\nhttp://line.me/ti/p/~joker.alish")
             if op.type == 13:
                 print ("[NOTIFIED_INVITE_INTO_GROUP]")
                 if prankMID in op.param3:
@@ -200,13 +200,13 @@ while True:
                                 prank.sendMessage(msg.to,"Ini kontak kamu")
                             elif text.lower() == 'add':		
                                 prank.sendMessage(msg.to,"❂•••••••••✧••••••••••❂")
-                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'u5818cb4404411c2e2e6e6937d172cca8'}, contentType=13)
-                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'udfaf52176415b46cb445ae2757ec85f3'}, contentType=13)
-                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'u17a086ccff618e754588a1108335867f'}, contentType=13)
+                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'u947fc6ed4cf99f7e377a58704eb5b0f5'}, contentType=13)
+                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'u947fc6ed4cf99f7e377a58704eb5b0f5'}, contentType=13)
+                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'u947fc6ed4cf99f7e377a58704eb5b0f5'}, contentType=13)
                                 prank.sendMessage(msg.to,"❂•••••••••✧••••••••••❂")
                             elif text.lower() == 'creator':		
                                 prank.sendMessage(msg.to,"❂•••••••••✧••••••••••❂")
-                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'u961be7189409ffd9138c7206e35003b0'}, contentType=13)
+                                prank.sendMessage(receiver, None, contentMetadata={'mid': 'u947fc6ed4cf99f7e377a58704eb5b0f5'}, contentType=13)
                                 prank.sendMessage(msg.to,"❂•••••••••✧••••••••••❂")
                             elif text.lower() == 'mymid':
                                 prank.sendMessage(msg.to, sender)
